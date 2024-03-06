@@ -20,15 +20,8 @@ class Client(Persona):
       print("No se encontró el producto: ", product_number)
   
   def remove_from_cart(self, product_number):
-    try:
-      product = Products[product_number - 1]
-    
-      if product in self.cart:
-        self.cart.remove(product)
-      else:
-        print("El producto no está en el carrito")
-    except:
-      print("No se encontró el producto: ", product_number)
+    delete = self.cart[product_number - 1]
+    self.cart.remove(delete)
     
 
   
