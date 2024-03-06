@@ -1,0 +1,7 @@
+setup.py
+modules/client.py
+modules/persona.py
+segunda_pre_entrega.egg-info/PKG-INFO
+segunda_pre_entrega.egg-info/SOURCES.txt
+segunda_pre_entrega.egg-info/dependency_links.txt
+segunda_pre_entrega.egg-info/top_level.txt
